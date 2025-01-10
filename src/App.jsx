@@ -3,7 +3,9 @@ import styles from './App.modules.css';
 function App() {
 
   return (
-    <div className={styles.App}>Hello World</div>
+    <div className={styles.App}>
+      <Navbar/>
+    </div>
   )
 }
 
